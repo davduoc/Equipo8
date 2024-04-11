@@ -1,0 +1,95 @@
+/* Estilos CSS para el formulario de inicio de sesión */
+
+body {
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+    background: linear-gradient(to bottom, rgb(131, 44, 253), rgb(223, 159, 243)); /* Color de fondo de respaldo */
+
+
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco del formulario */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #6f42c1; /* Color de texto morado oscuro */
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #af8dc3; /* Color de borde morado claro */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #6f42c1; /* Color de borde morado oscuro al enfocar */
+    outline: none; /* Quita el contorno de enfoque */
+}
+
+.form-text {
+    color: #9b59b6; /* Color de texto morado más claro */
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #6f42c1; /* Fondo del botón morado oscuro */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff; /* Color del texto blanco */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c; /* Fondo del botón morado más oscuro al pasar el ratón */
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p a {
+    color: #6f42c1; /* Color del enlace morado oscuro */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+.btn-iniciar-sesion {
+    background-color: #6f42c1; /* Fondo del botón morado oscuro */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff; /* Color del texto blanco */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Hacer que el botón ocupe todo el ancho disponible */
+    width: 100%; /* Hacer que el botón ocupe todo el ancho disponible */
+    margin-top: 20px; /* Espacio entre el botón y el siguiente elemento */
+}
+
+.btn-iniciar-sesion:hover {
+    background-color: #563d7c; /* Fondo del botón morado más oscuro al pasar el ratón */
+}

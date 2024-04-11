@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to bottom, rgb(131, 44, 253), rgb(223, 159, 243)); /* Cambia los valores RGB según tu preferencia */
+    margin: 0; /* Para eliminar el margen predeterminado del cuerpo */
+    color: black;
+}
+
+.header {
+    background: linear-gradient(to right, rgb(131, 44, 253), rgb(223, 159, 243)); /* Cambia los valores RGB según tu preferencia */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion {
+    float: right;
+}
+
+#contenedorPortada {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background-color: rgb(234, 0, 255);
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(131, 44, 253);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    font-family: verdana;
+    font-weight: bold;
+
+}
+
+.principal {
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel {
+    justify-content: center;
+    width: 32%;
+    height: 506;
+    padding: 35px;
+    background-color: rgb(0, 0, 0);
+    font-family: verdana;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    background-color: black;
+    text-align: right;
+}
+
+.contenedor-inferior{
+    display: flex;
+
+}
+
+
+.redes {
+    text-align: center;
+}
+
+.redes ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.redes ul li {
+
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.redes img {
+    height: 48px;
+    display: flex;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width:720px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+
+.nav-link {
+    color: rgb(0, 0, 0); /* Cambia el color del texto según tus preferencias */
+}
